@@ -1,0 +1,462 @@
+{
+  "repository": "https://github.com/KazumaProject/JapaneseKeyboard",
+  "revision": "04767ceb93afb22c4a39492e4295fdeca8c8c870",
+  "files": [
+    {
+      "p": "LICENSE",
+      "sha": "9ddafbc97238b416bb75723a2109685c2f1f801a"
+    },
+    {
+      "p": "THIRD-PARTY-NOTICES.md",
+      "sha": "3f8957392ca91b6c31aab4266a8de9a012faef94"
+    },
+    {
+      "p": "app/src/main/assets/connectionId.dat.zip",
+      "sha": "468fdb30959e862adb29333f0e5e2a593fa2a5ad"
+    },
+    {
+      "p": "app/src/main/assets/licenses/auxiliary.html",
+      "sha": "7740cac882cbca5530519ac03c6058418e82f092"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/address.html",
+      "sha": "5a40e271fe330553d84d9ca283f46ac222c3cdd4"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/agreement.html",
+      "sha": "1121d020da2b71a3aa8e245c698fb9728341b303"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/award.html",
+      "sha": "d0bf309ba9936b91320ac2f04a8757e1e74a09a4"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/character.html",
+      "sha": "200eb942b2f513876abe8fe421307f43efa9bc03"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/event/history/conflict.html",
+      "sha": "1b0aa2fe1cae957bf0b6ae6b985ca29ea13fe27f"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/event/incident/natural_disaster.html",
+      "sha": "92ed0a3045dc14106d38bb6ac51111905a866125"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/event/incident/social_issue_litigation.html",
+      "sha": "dabef8ffd62567fdf574c127e8f93b98f4fb9d02"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/event/occasion/exam_qualification.html",
+      "sha": "12427154c9ffdd6cb176fb12cb73a541221aefc0"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/event/occasion/observance.html",
+      "sha": "a4d96497f08dfcb064aa124e3175518fcfc1317e"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/event/occasion/organized_event.html",
+      "sha": "4fbe00434f95a109d9c9d3a5a8a33c9b37aca842"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/facility.html",
+      "sha": "d75f35bf0a4ac7a9f5d5ad81206cd5f5a8999d04"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/initiative.html",
+      "sha": "a35e80d8e89a852c37f93119b0e64be32fe56481"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/kampo.html",
+      "sha": "f3bd819b3585b3c948dc310275ea7698689cbfc9"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/lineage.html",
+      "sha": "4702db508c83e9dac2616568a61891bef23ca411"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/medical.html",
+      "sha": "87d7a65ea2bad2e09f1b47ad596ca0df80ee092c"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/mythological_figure.html",
+      "sha": "023a85ea7d11a41b8d2ee8077247c4955e4307ce"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/organization.html",
+      "sha": "e53cb87d8ecbe297e7d1909f2487377d59c34726"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/actor.html",
+      "sha": "2ee49eee4cc30da85ba23230c9e4604845f4690f"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/art_design.html",
+      "sha": "ef724d99e1e7b2e78907054ec351da726eb406ca"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/broadcaster.html",
+      "sha": "318c150d7d2e9222fe6fab974ab04cebd3987e02"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/business.html",
+      "sha": "c83cdc21e271b2d3f549175709dd300632c35fa6"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/comedian.html",
+      "sha": "16ddde451ae49eb1918e74c8282ab0f46a39abd4"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/competitive_games.html",
+      "sha": "b1eb885789c9ff89f98286f555efc1b6544a96ae"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/film_game_creator.html",
+      "sha": "d12636e1525736caddf1d446108ffbb040bca23f"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/given_name_origin_foreign.html",
+      "sha": "dcd6ddcf9b43883779ede266cedd23e640cd0d2a"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/given_name_origin_japanese.html",
+      "sha": "5f1f3242a6658b05aed01e02f7989612a8e249cd"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/given_name_origin_unconfirmed.html",
+      "sha": "99c9d473173911a762bdd207bda922461449e48c"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/idol.html",
+      "sha": "1a22f8d6269be309216fcb28be186a55cbdbc901"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/manga_illustration.html",
+      "sha": "cd8abc87297a20bc07d58b44fee2c7fbe6e3c43c"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/musician.html",
+      "sha": "0cdff6ae022bee8a3ab0724a524d97dec258bef9"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/online_creator.html",
+      "sha": "175f259099d3c3fc8a61c84f291af95d95a41724"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/other_identified.html",
+      "sha": "b5c183c52d806dc54911ad5207cf3aebd3729244"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/performing_arts.html",
+      "sha": "9fd034b1ffa70cb8a753691726df1ec2d21f68c1"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/personal_name_origin_foreign.html",
+      "sha": "d5c2e4044fa1b29aff8f71ff8290a8fd99b33364"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/personal_name_origin_japanese.html",
+      "sha": "d5daa55c02eb38f3504c8f6664bcb951b1e426b3"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/personal_name_origin_unconfirmed.html",
+      "sha": "1c278a9d9b435b15a9510e0806cc79255c06108e"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/politics_public.html",
+      "sha": "670a19328db30b4c69ed0193b85b1cf9a426dc6a"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/royalty_nobility.html",
+      "sha": "94b8677993ce4ca9bf4e3b3ed831f0aa55a1e467"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/science_education.html",
+      "sha": "649abf02107839907ec87b34a3cc425248333c52"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/sports.html",
+      "sha": "fdd08212096157db75766f1fc6db431cc094707f"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/surname_origin_foreign.html",
+      "sha": "1d64dfe33e5fece83b8009672006036a2b2d7810"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/surname_origin_japanese.html",
+      "sha": "69a2e158258c5758732134626623a268e2bb282f"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/surname_origin_unconfirmed.html",
+      "sha": "bf3a4a623b8a7f6d9588ce758a372637c0805dd3"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/thought.html",
+      "sha": "b52fdc1a4ae032eaa44d4ff32d1c021510a708dc"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/voice_actor.html",
+      "sha": "4d591b7a63a696abf09034ed6dd29b73f0e343bb"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/person/writer.html",
+      "sha": "a7e518117ebe49e25e8dff45d378acf7ab87d0f9"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/place.html",
+      "sha": "473440a96091868a3dbbd522774f1898f5cb897c"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/product.html",
+      "sha": "c4a9f33beca60c37e712d71e21bc43d85e1bc869"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/station.html",
+      "sha": "709671814f7c6ee6ccde533cec9256fe06bbbd0e"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/general/food_drink_cooking.html",
+      "sha": "65125223246c6d1fcdcd10836e9672b6450f02db"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/general/internet_slang_culture.html",
+      "sha": "d5029843f8775dbb9ccfe52cac38931813aeaaa8"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/general/neologisms_trends_youth_language.html",
+      "sha": "61a555362f458a52478eb2c0e9a90eb5d2f6ddf6"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/general/other_general.html",
+      "sha": "da3bfbee44adad63c28f8c5ddf8046bf942a2c68"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/general/products_daily_goods.html",
+      "sha": "b1ec717e7f5754b7ae19944860b694ff87441ea9"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/specialist/chemistry_life_sciences.html",
+      "sha": "2a33843aee49bc44ce0bc243151a810d0d66cdc9"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/specialist/culture_arts_sports.html",
+      "sha": "66e0d1bcfc53034123e7b4adb2e091098f81c98e"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/specialist/earth_environment_resources.html",
+      "sha": "1ad9d23aea84fd33df64c203c105ae465e1ba5b1"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/specialist/economics_management.html",
+      "sha": "e4187c8dfdd4bf7058f8f2288de53aee0c56c245"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/specialist/engineering_technology.html",
+      "sha": "0c2d23256fb34f6bc333c5f6d2764fb7ff447030"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/specialist/humanities_social_sciences.html",
+      "sha": "d35f1a254fb6d6da568f0b552b840a05ae92153e"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/specialist/information_communications.html",
+      "sha": "b9728e5cd22d19101c6bd97c533a0b002579d604"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/specialist/law_politics.html",
+      "sha": "9ea8d50bdf1fc8d326028c557ff674425da9222d"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/specialist/mathematics_physics.html",
+      "sha": "ee70d987b0c316e20fa4b1b1cd5d7e7551f9c1ad"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/term/specialist/transport_safety_defense.html",
+      "sha": "36ca3a03e11142256f6e55adfc92a628af861040"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/transport_route.html",
+      "sha": "f67d9ad638f14c070f31ecf710e5b9dfa284817b"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/vehicle.html",
+      "sha": "cc9f5e0a2ef56eb1fd73a4679dbde97767f9dc95"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/work_anime.html",
+      "sha": "a4a49c2a5863cb25a1dd7d78f57cd799dccfd9ef"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/work_book.html",
+      "sha": "88062d0b432394cb2cf0b9994cd5e4faf18ddf2e"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/work_film.html",
+      "sha": "d4361829782c5adb7d93de090b44eaba8110364e"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/work_franchise.html",
+      "sha": "e626958a4ea0582a65a11ca1d3650b77e0cfc553"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/work_game.html",
+      "sha": "3cb8622b660aef0189c27a88fb578db172b23ab2"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/work_manga.html",
+      "sha": "2671df4fff6cfbc839d8af3fd64ed5a14f310b8f"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/work_music.html",
+      "sha": "f94914cf781ae026ab4fd63ff8ed20bbbfee69f8"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/work_other.html",
+      "sha": "8e321d9ad3f2dd69009a357eb40999167d13ac52"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/work_periodical.html",
+      "sha": "51115395b254ba33f996895d18af34340fd2b8cc"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/work_program.html",
+      "sha": "6c23ed4978ad9c11f56d2541606415787e7575ec"
+    },
+    {
+      "p": "app/src/main/assets/licenses/classified/work_stage.html",
+      "sha": "16598c890ab3ae9f693722dca9694c4e94cddb6b"
+    },
+    {
+      "p": "app/src/main/assets/licenses/core.html",
+      "sha": "49d1deb9106e61a85d08591b18353a79a0c40abf"
+    },
+    {
+      "p": "app/src/main/assets/licenses/english-reading.html",
+      "sha": "3e0cf256b6ae8ad23de73a02ef908815c5dc716a"
+    },
+    {
+      "p": "app/src/main/assets/licenses/english.html",
+      "sha": "7c6ec118239f7a44df8627545927d1c242e6ebec"
+    },
+    {
+      "p": "app/src/main/assets/licenses/ngram.html",
+      "sha": "2e20a96bf0470c0eb40cb3bd78659c52fbf136d5"
+    },
+    {
+      "p": "app/src/main/assets/licenses/notice-snapshots.json",
+      "sha": "ea490b4a7dbd1b432bf3da5976cd39b63a691345"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/apache-2.txt",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/cc-by-4.0.txt",
+      "sha": "3939294d979990dca1055a55d88051c91a1aecb1"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/cc-by-sa-2.1-jp.txt",
+      "sha": "86c26696a07831e34de385dc9b2c10f768c254c5"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/cc-by-sa-4.txt",
+      "sha": "2d58298e6eda10e7204abb52722efbc840db2390"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/cmudict.txt",
+      "sha": "81a0ae8ec00962d2ccce9f93c1dcb17d3cb57abb"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/converter.txt",
+      "sha": "98cbe352785482b9b247e844ad972a22b5d3b169"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/corpus.txt",
+      "sha": "2929cc7401c294857a5d56e6aae180d181177e17"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/data.txt",
+      "sha": "d2238b9679431610de4fb33dcc151605ec73469d"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/distribution-licenses.txt",
+      "sha": "210ff02aadcbec836ae93ef15198466a4473ba97"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/hyakuyaku.txt",
+      "sha": "65bef72084dde395b60dd2e3ad7b5607d98db5a2"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/ipadic-copying.txt",
+      "sha": "85a0c63616ff2a50ddf820ffcc5b9d5bd0c224a3"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/ipadic.txt",
+      "sha": "9bf64bd4eb5c5e6ce3bcdd0ccd242f4325228f5f"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/jmdict.txt",
+      "sha": "066015c247570d3808cd0c76dec92ab4822508cf"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/kampo_core.txt",
+      "sha": "71d086648a5889d74dab319bd483eab54934b339"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/kampo_herb.txt",
+      "sha": "71d086648a5889d74dab319bd483eab54934b339"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/manbyo.txt",
+      "sha": "02618c5b48c146464fddba6fe4e1106473d4b93c"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/merge-ut.txt",
+      "sha": "0b12480295f80fa0beb280620d9bcce6b46059a9"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/mozc.txt",
+      "sha": "15ef0f074d90c3856c3202a9ab1a8a349ae57570"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/neologd.txt",
+      "sha": "43d83b44ffb88a799a3c485908ead4ea7f3c9e4a"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/person.txt",
+      "sha": "9620d5bcfcef3f9787128c1f0fbc1f0c459adb89"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/place.txt",
+      "sha": "23cdda6c79e0e1fcc3bf3e03e612fd64a9df4f80"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/release-data.txt",
+      "sha": "b4185a892b63c33624b4d30cbe6e03d5a25081d9"
+    },
+    {
+      "p": "app/src/main/assets/licenses/sources/wiki.txt",
+      "sha": "aaca33a617d64bfc9bc8061bb2d4b79a1cdf0ed1"
+    },
+    {
+      "p": "app/src/main/assets/licenses/wiki.html",
+      "sha": "0b2f8d32ccd2418e78f646e171f4d69d566a1783"
+    },
+    {
+      "p": "app/src/main/assets/pos_table.dat",
+      "sha": "74735df5bbc4a2bb91ba8075bd94cabdd0d659dc"
+    },
+    {
+      "p": "app/src/main/assets/system/tango.dat.zip",
+      "sha": "de6915b48375875b5ff8e4c8ffba9afbc64d1d7d"
+    },
+    {
+      "p": "app/src/main/assets/system/token.dat.zip",
+      "sha": "d521b138d9a50bff7aa00d6051550a4399174abf"
+    },
+    {
+      "p": "app/src/main/assets/system/yomi.dat.zip",
+      "sha": "22885385276e30e255da2a32ea552b58153deae8"
+    }
+  ]
+}

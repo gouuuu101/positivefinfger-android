@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<input-method xmlns:android="http://schemas.android.com/apk/res/android">
-    <subtype
-        android:label="English (QWERTY)"
-        android:imeSubtypeLocale="en_US"
-        android:imeSubtypeMode="keyboard" />
+<input-method xmlns:android="http://schemas.android.com/apk/res/android" android:settingsActivity="com.positivefinger.android.MainActivity" android:supportsSwitchingToNextInputMethod="true">
+    <subtype android:label="PositiveFinger 日本語" android:imeSubtypeLocale="ja_JP" android:imeSubtypeMode="keyboard" />
 </input-method>
