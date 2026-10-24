@@ -14,6 +14,7 @@ import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
+import android.view.inputmethod.InputMethodManager
 import android.widget.*
 import kotlin.math.abs
 import java.util.concurrent.Executors
@@ -228,7 +229,15 @@ class PositiveFingerKeyboardService : InputMethodService() {
     }
     private fun commitWithoutReward() { conversionGeneration++; query?.cancel(true); convertedCandidates=emptyList(); currentInputConnection?.finishComposingText(); composing=""; english.clear() }
     private fun changeMode(next: String) { if(composing.isNotEmpty()) commit(composing); english.clear(); mode=next; setInputView(onCreateInputView()) }
-    private fun switchKeyboard() { commitWithoutReward(); if(!switchToNextInputMethod(false)) (getSystemService(Context.INPUT_METHOD_SERVICE) as android.view.inputmethod.InputMethodManager).showInputMethodPicker() }
+    private fun switchKeyboard() {
+        commitWithoutReward()
+        // InputMethodService.switchToNextInputMethod was introduced in Android 9 (API 28).
+        val switched = android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.P &&
+            switchToNextInputMethod(false)
+        if (!switched) {
+            (getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager).showInputMethodPicker()
+        }
+    }
     private fun move(direction: Int) {
         commitWithoutReward()
         val code=if(direction<0) android.view.KeyEvent.KEYCODE_DPAD_LEFT else android.view.KeyEvent.KEYCODE_DPAD_RIGHT
